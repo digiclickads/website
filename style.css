@@ -1,0 +1,890 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+.navbar-brand {
+    margin-right: auto; 
+  
+  }
+
+
+  .navbar-nav {
+    margin: 0 auto; 
+  }
+
+  .intro {
+    /* add color */
+    font-size: 45px;
+    color: white;
+    font-weight: 500;
+  }
+
+  .intro2 {
+    /* add color */
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+  }
+
+  .container {
+    margin-bottom: 5rem;
+  }
+
+  .nav-link:hover {
+    color: #9acd32; 
+}
+
+.nav-link.active {
+  color: #9acd32 !important; 
+}
+
+  .landing {
+        background-color: #003A31;
+        }
+
+        .landing2 {
+          background-color: #003A31;
+          border-radius: 1rem;
+          }
+
+        .semi-intro {
+          color: #9acd32;
+          text-align: center;
+        }
+
+        .text {
+          color: white;
+
+        }
+
+        .customized-button {
+          background-color: #d5ff00;
+          font-size: small;
+           
+        }
+
+        .btn:hover {
+          background-color: #d5ff00;
+          font-size: small;
+           
+
+        }
+
+        .outline-button {
+          display: inline-block;
+          padding: 8px 16px;
+          text-align: center;
+          text-decoration: none;
+          border: 2px solid #ccff00; 
+          color: #e6ff00; 
+          background-color: transparent; 
+          cursor: pointer;
+          outline: none; 
+          transition: border-color 0.3s ease; 
+          font-size: small;
+           
+          
+
+        }
+
+        .outline-btn:hover,
+        .outline-btn:focus {
+             background-color:#e6ff00; 
+            
+  }
+
+        .nav-link {
+          color: white;
+        }
+
+        .logo {
+          margin-right: 0.15rem;
+          margin-left: 0.15rem;
+          margin-bottom: 0.17rem;
+          font-size: 1px;
+
+        }
+
+        .logo-text {
+          color: white;
+        }
+
+
+        .graph {
+          width: 100%;
+        }
+
+        .copyright {
+          color: white;
+          font-size: small;
+        }
+
+       
+        .footer-icons {
+          display: flex;
+          align-items: center;
+        }
+        
+        .footer-icons a {
+          margin-left: 12px; 
+          margin-top: 0.4rem;
+        }
+        
+
+       span {
+        display: inline;
+        list-style: none;
+       }
+
+
+       .button2 {
+        padding-top: 10px;
+        padding-left: 10px; 
+        padding-bottom: 5px;
+        padding-top: 2rem;
+      }
+
+       .rounded-5 {
+        border-radius: 50%;
+       }
+
+       .footer-line {
+        color: white;
+       }
+       h6 {
+        text-align: left;
+       }
+
+       small {
+        text-align: left;
+        line-height: 0;
+       }
+
+       .powerful {
+        text-align: center;
+       }
+
+       
+       
+      .card-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+      
+      .card {
+        margin: 10px;
+        width: calc(100% - 20px);
+        max-width: 22.5rem; 
+      }
+      
+      .card-img-top {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+
+      
+      .car-text {
+        text-align: left;
+      }
+
+     .question1 {
+      text-align: left;
+     }
+
+    
+
+     .sign-up {
+      display: none;
+    }
+
+    p {
+      line-height: 1.2;
+      
+    }
+
+
+
+
+
+    .dropdown-item {
+      white-space: nowrap; 
+      writing-mode: vertical-lr; 
+      text-orientation: upright; 
+      transform: rotate(180deg); 
+      padding: 0.5rem 1rem; 
+    }
+    .dropdown-menu {
+      min-width: auto; 
+    }
+
+    i {
+      color: white;
+      border: 0.5rem solid #002D25 ;
+      border-radius: 50%;
+    }
+
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+  }
+  
+  .icon1 {
+    border: 1rem solid #003A31 ;  
+  }
+  
+  .faq-item {
+      margin-bottom: 10px;
+      background-color: rgb(255, 255, 255);
+      padding: 15px;
+      border-radius: 5px;
+      transition: background-color 0.3s, border-color 0.3s;
+      border-radius: 0.6rem;
+      cursor: pointer;
+
+  }
+
+  
+
+
+  
+
+  .faq-item {
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, border-color 0.3s;
+    border-radius: 0.6rem;
+  }
+  
+  .faq-question {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: relative;
+  }
+  
+  .dropdown-sign {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    width: 2rem; 
+    height: 2rem; 
+    line-height: 40px; 
+    font-size: 20px; 
+    color: #003A31; 
+    background-color: rgb(234, 235, 233); 
+    border-radius: 50%; 
+    border: 0.3rem solid rgb(234, 235, 233); 
+    transition: background-color 0.9s ease, border-color 0.9s ease, transform 0.9s ease; 
+    margin-left: 10px;
+  }
+  
+  .faq-item.open {
+    background-color: #fff; 
+    border-color: #003A31; 
+    border: 0.1rem solid #003A31;
+  }
+  
+  .faq-item.open .dropdown-sign {
+    color: white;
+    background-color: #003A31;
+    border-color: #003A31; 
+    transform: rotate(450deg); 
+  }
+  
+  .faq-answer {
+    display: none;
+    margin-top: 0.3rem;
+  }
+  
+  .faq-item.open .faq-answer {
+    display: block;
+  }
+    
+
+  .custom-item {
+    margin-top: 3rem;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 1rem;
+    transition: background-color 0.3s;
+    border: 0.15rem solid rgb(83, 116, 111); 
+    background-color: rgb(49, 82, 78);
+     width: 100% !important;
+  }
+  .custom-item.open {
+    background-color: rgb(49, 82, 78); 
+    border-color: rgb(110, 200, 140); 
+  }
+  .custom-question {
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+  }
+  .custom-dropdown-sign {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    transition: transform 0.5s ease, color 0.3s; 
+    font-weight: lighter;
+    display: inline-block;
+    width: 20px;
+    height: 20px; 
+    line-height: 20px; 
+    text-align: center;
+    color: white; 
+  }
+  .custom-answer {
+    display: none;
+    color: white; 
+    font-size: large;
+  }
+  .custom-item.open .custom-answer {
+    display: block;
+    font-weight: bolder;
+  }
+  .custom-item.open .custom-question .custom-dropdown-sign {
+    color: white; 
+  }
+  .campaign {
+    border-radius: 1rem;
+    width: 100%; 
+    height: auto;
+    height: 100%;
+  }
+  .create {
+    background-color: #003A31;
+    border-radius: 1rem;
+    margin-top: 6rem;
+  }
+  .white {
+    color: white;
+  }
+  
+
+  .navbar-brand h3 {
+  display: inline-block;
+  margin-bottom: 0; /* Remove bottom margin for h3 */
+  color: white;
+  }
+
+
+
+  .btn-outline-primary {
+  margin-left: 10px; /* Adjust spacing between nav links and button */
+  }
+
+  .navbar-toggler {
+    color: transparent;
+    border: none;
+  }
+
+
+  .feature-icon {
+  outline: 1px solid gray;
+  padding: 0.3rem;
+  border-radius: 0.2rem;
+  margin-top: 0.5rem;
+  }
+
+  .green {
+    background-color: #003A31;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+  }
+
+  .question1 {
+    font-size: 0.9rem;
+    font-weight: 100;
+
+  }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+    /* Big tablets */ 
+@media (min-width: 992px) and (max-width: 1099px) {
+     
+      .intro {
+        /* add color */
+        font-size: 3vw;
+        color: white;
+        font-weight: 300;
+      }
+
+      .dropdown-sign {
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        width: 2rem; 
+        height: 2rem; 
+        line-height: 40px; 
+        font-size: 20px; 
+        color: #003A31; 
+        background-color: rgb(234, 235, 233); 
+        border-radius: 50%; 
+        border: 0.3rem solid rgb(234, 235, 233); 
+        transition: background-color 0.9s ease, border-color 0.9s ease, transform 0.9s ease; 
+        margin-left: 10px; 
+      }
+
+      .btn1 {
+        display: none;
+      } 
+
+     
+
+      .text {
+        color: white;
+        font-size: 0.95rem;
+      }
+
+      .footer .container {
+          margin-right: 0;
+          margin-left: 0;
+
+      }
+
+      .chart {
+        height: 24rem;
+      }
+
+      .intro2 {
+        /* add color */
+        font-size: 20px;
+        color: white;
+        font-weight: 400;
+      } 
+
+      h2 {
+        font-size: 1.5rem;
+      }
+      .semi-intro {
+        color: #9acd32;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+      }
+      .expand2 {
+        padding-left: 3rem;
+        padding-right: 3rem;
+
+      }
+
+      .button2 {
+        padding-top: 10px;
+        padding-left: 10px; 
+        padding-bottom: 5px;
+        padding-top: 5px;
+      }
+
+      .sign-up {
+        display: none;
+      } 
+
+      .question1 {
+        font-size: 1rem;
+        font-weight: 400;
+
+      }
+
+      .text2 {
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 300;
+        margin-top: 0.6rem;
+      }
+
+      .logo-text {
+        font-size: 1.7rem;
+      }
+
+      h4 {
+        font-size: 17px;
+      }
+
+      .card-text {
+        font-size: small;
+      }
+
+      .small {
+        font-size: 1.2vw;   
+        line-height: normal; 
+      }
+
+      .card-title {
+        font-size: 15px;
+      }
+    }
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* regular tablets */
+    @media (min-width: 768px) and (max-width: 992px) {
+      
+      .text {
+        font-size: 0.9rem;
+      }
+
+      .dropdown-sign {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        width: 2rem; 
+        height: 2rem; 
+        line-height: 40px; 
+        font-size: 20px; 
+        color: #003A31; 
+        background-color: rgb(234, 235, 233); 
+        border-radius: 50%; 
+        border: 0.3rem solid rgb(234, 235, 233); 
+        transition: background-color 0.9s ease, border-color 0.9s ease, transform 0.9s ease;
+        margin-left: 10px; 
+      }
+
+      .question1 {
+        font-size: 0.9rem;
+        font-weight: 100;
+      }
+
+      .text2 {
+        color: white;
+        font-size: 0.75rem;
+        font-weight: 100;
+      }
+
+      .intro {
+        font-size: 1.5rem;
+      }
+
+      h4 {
+        font-size: 1rem;
+      }
+     
+      .logo-text {
+        font-size: 1.5rem;
+      }
+
+      .intro2 {
+        font-size: 1.3rem;
+      }
+
+      .btn1 {
+        display: none;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+      }
+
+     
+
+      .card-title {
+        font-size: 1rem;
+        font-weight: 100;
+      }
+
+      .card-text {
+        font-size: 0.75rem;
+        color: gray;
+
+      } 
+
+    }
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+   
+
+   /* laptops */
+  @media (min-width: 1280px) and (max-width: 3600px) {
+   
+
+    .logo-text {
+      font-size: 1.5rem;
+    }
+
+    .question1 {
+      font-size: 0.9rem;
+      font-weight: 100;
+
+    }
+
+    .text2 {
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 100;
+    }
+
+    
+
+    .btn1 {
+      display: none;
+    }
+
+    .expand2 {
+      padding-left: 9rem;
+      padding-right: 9rem;
+
+    }
+
+    .nav-link {
+      padding: 0.5rem 1rem; /* Adjust padding for better touch targets */
+      margin-right: 1rem;
+      white-space: wrap; /* Prevent text wrapping */
+    }
+    
+    .question {
+      font-size: 1rem;
+      font-weight: 500;
+      color: black;
+    }
+
+   
+
+    .text {
+      font-size: 0.9rem;
+    }
+ 
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+      /* phones */
+      @media (max-width: 768px) {  
+       
+
+        .nav-link {
+          padding: 0rem; /* Adjust padding for better touch targets */
+          white-space: wrap; /* Prevent text wrapping */
+        }
+
+          .nav-link  {
+            font-size: 0.8rem;
+          }
+
+          .dropdown-sign {
+            display: flex; /* Use flexbox for centering */
+            justify-content: center; /* Center text horizontally */
+            align-items: center; /* Center text vertically */
+            width: 1.4rem; /* Circle diameter */
+            height: 1.4rem; /* Circle diameter */
+            line-height: 40px; /* Align text vertically */
+            font-size: 20px; /* Adjust font size as needed */
+            color: #003A31; /* Default color */
+            background-color: rgb(234, 235, 233); /* Default background color */
+            border-radius: 50%; /* Makes the span a circle */
+            border: 0.3rem solid rgb(234, 235, 233); /* Border matching the background color */
+            transition: background-color 0.9s ease, border-color 0.9s ease, transform 0.9s ease; /* Transitions */
+            margin-left: 10px; /* Space between the question text and the circle */
+          }
+
+          .green {
+            background-color: #003A31;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            padding-left: 0.35rem;
+            padding-right: 1rem;
+            border-radius: 1rem;
+          }
+
+          
+      .card-text {
+        font-size: 0.85rem;
+        color: gray;
+      }
+
+      .card-title {
+        font-size: 1rem;
+
+      }
+
+        .semi-intro {
+          color: #9acd32;
+          text-align: center;
+          font-size: 0.7rem;
+        }
+
+        .question {
+          font-size: 0.9rem;
+        }
+
+       
+
+        .intro {
+          /* add color */
+          font-size: 1.05rem;
+          color: white;
+          font-weight: 500;
+          
+          
+        }
+
+        .center {
+          text-align: center;
+        }
+
+        .nav-link {
+          padding: 0.2rem 0.5rem; /* Adjust padding for better touch targets */
+
+        }
+
+        .expand2 {
+          padding-left: 0.2rem;
+          padding-right: 0.2rem;
+  
+        }
+
+        .question1 {
+          font-size: 0.9rem;
+          font-weight: 400;
+    
+        }
+    
+        .text2 {
+          color: white;
+          font-size: 0.8rem;
+          font-weight: 300;
+          margin-top: 0.5rem;
+        }
+
+        .intro2 {
+          /* add color */
+          font-size: 1.05;
+          color: white;
+          font-weight: 500;
+        }
+       
+
+        .text {
+          color: white;
+          font-size: 0.75rem;
+        }
+
+        .btn {
+          padding: 0.3rem;
+           
+        }
+
+        small {
+          font-size: 0.75rem;   
+        }
+
+        
+
+
+
+      .card {
+        margin: 10px;
+        width: 100vw;
+        max-width: 100vw; /* Maximum width for each card */
+      }
+
+      h4 {
+        font-size: 14px;
+      }
+
+     
+
+      h2 {
+        font-size: 1.05rem;
+        line-height: 1;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+
+      .custom-item {
+        background-color: #fff;
+        padding: 10px;
+        margin-top: 1.5rem;
+        transition: background-color 0.3s, ;
+        border: 0.15rem solid rgb(83, 116, 111); 
+        background-color: rgb(49, 82, 78);
+        border-radius: 1rem;
+        width: 100vw;
+      }
+
+      
+
+      .logo-text {
+        font-size: 1.2rem;
+      }
+
+      .button2 {
+        padding-top: 10px;
+        padding-bottom: 1rem;
+        padding-left: 0;
+        border-radius: 0.7rem;
+
+      }
+
+      .btn2 {
+        display: none;
+      }
+
+      .footer-links {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .small-signup {
+        margin-left: auto;
+
+      }
+
+      .navbar-nav {
+        margin-left: auto;
+      }
+
+      .btn1 {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+        border: 0.1rem solid #9acd32;
+      }
+      .btn {
+        border: 0.1rem solid #9acd32;
+
+      }
+ 
+      }
+
+
+      html {
+        scroll-behavior: smooth;
+    }
