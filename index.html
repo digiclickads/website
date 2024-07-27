@@ -17,7 +17,7 @@
     <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
 
-        <div class=" landing ">
+        <div class=" landing  hero ">
             <!-- nav bar -->
             <nav class="navbar navbar-expand-md px-lg-5">
                 <div class="container-fluid">
@@ -27,7 +27,6 @@
                     </a>
 
 
-                    <button class="btn outline-button btn1 px-4 small-signup mt-0 ">Sign Up</button>
 
                     <!-- Navbar Toggler -->
                     <button class="navbar-toggler ms-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,6 +48,7 @@
                                 <a class="nav-link" href="#faqs">FAQs</a>
                             </li>
                             
+                            <button class="btn outline-button btn1 px-3 small-signup mt-0 ">Sign Up</button>
 
                         </ul>
                         <button class="btn  outline-button  btn2 justify-content-center px-md-4 ">Sign Up</button>
@@ -60,20 +60,34 @@
 
                <!-- hero section -->
             <div id="home" class="container px-md-5 px-1 px-sm-0  px-0 pt-lg-5 pt-0 my-md-5 my-0 text-center ">
-                <h6 class="semi-intro mt-0">DIGICLICK ADVERTS</h6>
+
+                <div class="mobile-hero">
+
+                    <div class="slide-in">
+                <h6 class="semi-intro mt-0 semi-hero">DIGICLICK ADVERTS</h6>
                 <h1 class="intro ">Create, Manage, And Run Ad Campaigns Effortlessly With Real-Time Analytics and detailed reporting</h1>
-                <div class="col-lg-7 mx-auto mt-md-2 mt-lg-4 ">
-                    <p class="text mb-md-3 ">Manage, analyze, and improve your ad campaigns with ease. Digitech provides powerful tools to create, monitor, and optimize your campaigns, ensuring maximum ROI with real-time insights and detailed analytics</p>
-                    <div class="d-flex gap-2  d-sm-flex justify-content-center mb-5 mt-md-4 mt-lg-5">
-                        <button type="button " class="btn outline-button btn-lg  px-4 me-sm-3">Sign In</button>
-                        <button type="button" class="btn customized-button btn-lg px-4">Sign Up</button>
-                    </div>
-                </div>
-                <!-- statistics image -->
-                <div>
-                    <img src="dashboard.jpeg" class="img-fluid rounded-3  mb-5" alt="Dashboard Image" width="1200" loading="lazy">
-                </div>
             </div>
+
+                <div class="col-lg-7 mx-auto mt-md-2 mt-lg-4 slide-in-right">
+                    <p class="text mb-md-3 hero-p">Manage, analyze, and improve your ad campaigns with ease. Digitech provides powerful tools to create, monitor, and optimize your campaigns, ensuring maximum ROI with real-time insights and detailed analytics</p>
+                </div>
+
+            </div>
+
+                    
+                    <div class=" gap-5 d-sm-flex justify-content-sm-center gap-2 mb-5 mt-md-4 mt-lg-5 ">
+                        <button type="button" class="btn outline-button btn-lg  hero-btn1 hero-btn px-5 me-sm-3  slide-in">Sign In</button>
+                        <button type="button" class="btn customized-button btn-lg px-5 hero-btn slide-in-right">Sign Up</button>
+                      </div>
+
+                      
+
+                <!-- statistics image -->
+                <div class="dashboard-container">
+                    <img src="dashboard.jpeg" class="img-fluid dashboard rounded-3  mb-5" alt="Dashboard Image" width="1200" loading="lazy">
+                </div>
+            
+        </div>
         </div>
 
         <!-- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -82,8 +96,8 @@
         <div id="about" class="container   mt-5 ">
             <div class="row flex-lg-row-reverse align-items-center ">
                 <div class="col-lg-6 ">
-                    <h6 class="semi-intro mb-lg-4 mb-sm-0  ">DIGICLICK ADVERTS</h6>
-                    <h2 class=" text-body-emphasis center">Powerful Features For Your Campaign Management</h2>
+                    <h6 class="semi-intro semi-intro-hero mb-lg-4 mb-sm-0 text-center ">DIGICLICK ADVERTS</h6>
+                    <h2 class=" text-body-emphasis center text-center">Powerful Features For Your Campaign Management</h2>
                     <div class="col-lg-12 col-md-12 mx-auto mt-3 -5 mb- mb-md-3">
                         <p class="text text-body-secondary mb-4 mb-sm-0 text-center">Seamlessly manage your ad campaigns, monitor performance with real-time insights, and gain comprehensive data to drive informed decisions and optimize results</p>
                     </div>
@@ -256,7 +270,7 @@
 
             <!-- frequently asked questions -->
         <div class="container button2 text-center landing2 ">
-            <h6 class="semi-intro mt-0 mt-md-2">DIGICLICK ADVERTS</h6>
+            <h6 class="semi-intro mt-0 mt-md-2 text-center">DIGICLICK ADVERTS</h6>
             <h2 class="intro2">Streamline your efforts and boost efficiency</h2>
             <div class="col-lg-7 col-sm-12 mx-auto mt-md-3">
                 <p class="text mb-md-4">DigiClick simplifies campaign management, boosts efficiency, and enhances performance, helping you stay ahead in a competitive landscape</p>
@@ -266,6 +280,9 @@
                 </div>
             </div>
         </div>
+
+
+
             <!-- questions -->
             <div id="faqs" class="container px-0 pt-lg-5 py-lg-2 my-md-5 px-lg-5 ">
                 <h6 class="semi-intro mt-0">DIGICLICK ADVERTS</h6>
@@ -274,7 +291,7 @@
                     <p class="text text-body-secondary mb-4 text-center">Seamlessly manage your ad campaigns, monitor performance with real-time insights, and gain comprehensive data to drive informed decisions and optimize results</p>
                 </div>
         
-                <div  class="container py-5 col-lg-12 col-sm-12 expand2  py-sm-0 bg-body-tertiary rounded-4">
+                <div  class="container py-5 col-lg-12 col-sm-12 expand2  py-md-3 bg-body-tertiary rounded-4">
 
                     <div class="faq-item mb-md-5 mt-md-5 p-3">
                         <div class="faq-question">
@@ -316,7 +333,7 @@
                         </div>
                     </div>
         
-                    <div class="faq-item p-3">
+                    <div class="faq-item p-3 mb-md-5">
                         <div class="faq-question">
                             <span class="question">Is customer support available if I need help?</span>
                             <span class="dropdown-sign">></span>
