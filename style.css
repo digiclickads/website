@@ -884,14 +884,18 @@ body {
 
     .navbar-toggler {
       border-color: transparent; /* Hide the border */
+      width: 2rem;
   }
   
  
   
   .navbar-toggler::before {
       content: "\2630"; /* Unicode for hamburger icon */
-      font-size: 1.6rem; /* Adjust size as needed */
+      font-size: 1.7rem; /* Adjust size as needed */
       color: white; /* Set color to white */
       display: inline-block;
       margin-bottom: 0.3rem;
+      width: 2rem;
+      padding-right: 0.5rem;
+
   }
