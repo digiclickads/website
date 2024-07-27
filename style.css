@@ -1,5 +1,5 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+body  {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 0;
 }
 
@@ -18,6 +18,8 @@ body {
     font-size: 45px;
     color: white;
     font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
 
   .intro2 {
@@ -25,6 +27,8 @@ body {
     font-size: 35px;
     color: white;
     font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
 
   .container {
@@ -51,23 +55,30 @@ body {
         .semi-intro {
           color: #9acd32;
           text-align: center;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
 
         .text {
           color: white;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
         }
 
         .customized-button {
           background-color: #d5ff00;
           font-size: small;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
            
         }
 
         .btn:hover {
           background-color: #d5ff00;
           font-size: small;
-           
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
         }
 
@@ -83,7 +94,8 @@ body {
           outline: none; 
           transition: border-color 0.3s ease; 
           font-size: small;
-           
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
           
 
         }
@@ -91,11 +103,15 @@ body {
         .outline-btn:hover,
         .outline-btn:focus {
              background-color:#e6ff00; 
+             font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
             
   }
 
         .nav-link {
           color: white;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
 
         .logo {
@@ -103,11 +119,14 @@ body {
           margin-left: 0.15rem;
           margin-bottom: 0.17rem;
           font-size: 1px;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
         }
 
         .logo-text {
           color: white;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
 
 
@@ -118,6 +137,8 @@ body {
         .copyright {
           color: white;
           font-size: small;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
         }
 
        
@@ -135,6 +156,8 @@ body {
        span {
         display: inline;
         list-style: none;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
        }
 
 
@@ -143,6 +166,8 @@ body {
         padding-left: 10px; 
         padding-bottom: 5px;
         padding-top: 2rem;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
       }
 
        .rounded-5 {
@@ -154,15 +179,15 @@ body {
        }
        h6 {
         text-align: left;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
        }
 
        small {
         text-align: left;
         line-height: 0;
-       }
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-       .powerful {
-        text-align: center;
        }
 
        
@@ -186,28 +211,31 @@ body {
       }
 
       
-      .car-text {
+      .card-text {
         text-align: left;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
       }
 
      .question1 {
       text-align: left;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
      }
 
     
 
      .sign-up {
       display: none;
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
 
     p {
       line-height: 1.2;
-      
+      font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
     }
-
-
-
-
 
     .dropdown-item {
       white-space: nowrap; 
@@ -226,9 +254,10 @@ body {
       border-radius: 50%;
     }
 
-    body {
-      font-family:Arial, Helvetica, sans-serif;
-  }
+    .dashboard {
+      display: block;
+      width: 100%;
+    }
   
   .icon1 {
     border: 1rem solid #003A31 ;  
@@ -264,6 +293,8 @@ body {
     align-items: center; 
     justify-content: space-between; 
     position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   
   .dropdown-sign {
@@ -298,6 +329,8 @@ body {
   .faq-answer {
     display: none;
     margin-top: 0.3rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   
   .faq-item.open .faq-answer {
@@ -323,6 +356,8 @@ body {
     cursor: pointer;
     position: relative;
     color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   .custom-dropdown-sign {
     position: absolute;
@@ -343,6 +378,8 @@ body {
     display: none;
     color: white; 
     font-size: large;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   .custom-item.open .custom-answer {
     display: block;
@@ -364,6 +401,8 @@ body {
   }
   .white {
     color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
   
 
@@ -371,6 +410,8 @@ body {
   display: inline-block;
   margin-bottom: 0; /* Remove bottom margin for h3 */
   color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
 
   .navbar-toggler {
@@ -398,6 +439,8 @@ body {
   .question1 {
     font-size: 0.9rem;
     font-weight: 100;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 
   }
 
@@ -681,16 +724,35 @@ body {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
       /* phones */
-      @media (max-width: 768px) {  
-       
+      @media (max-width: 767px) {  
+          .hero {
+            padding-bottom: 0.8rem;
+          }
 
         .nav-link {
           padding: 0rem; /* Adjust padding for better touch targets */
           white-space: wrap; /* Prevent text wrapping */
         }
+        .navbar {
+          margin-bottom: 1.5rem;
+        }
+
+        .hero-btn1 {
+          margin-right: 1rem;
+
+        }
+
+        .hero-btn {
+            margin-top: 2rem;
+            width: 45vw;
+            padding-top: 0.6rem !important;
+            padding-bottom: 0.6rem !important;
+            margin-bottom: 5rem;
+
+        }
 
           .nav-link  {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
           }
 
           .dropdown-sign {
@@ -739,30 +801,87 @@ body {
           font-size: 0.9rem;
         }
 
+        /* Define the sliding animation */
+@keyframes slideInFromLeft {
+  0% {
+      transform: translateX(-100%); /* Start from off-screen to the left */
+      opacity: 0; /* Start invisible */
+  }
+  100% {
+      transform: translateX(0); /* End at the final position */
+      opacity: 1; /* End visible */
+  }
+}
+
+/* Apply the animation to the container */
+.slide-in {
+  animation: slideInFromLeft 1.5s ease-out; /* 1 second duration with ease-out timing */
+}
+
+/* Ensure that the initial state is off-screen */
+.slide-in {
+  position: relative;
+}
+
+
+
+
+.dashboard {
+  display: block;
+  width: 95%;
+  height: 35vh;
+ 
+}
+.dashboard-container {
+  display: flex;
+  justify-content: center;
+}
        
 
         .intro {
           /* add color */
-          font-size: 1.05rem;
+          font-size: 1.5rem;
           color: white;
           font-weight: 500;
-          
-          
+          line-height: 1.7;
+          text-align: left;
+          margin-bottom: 2rem;
+          margin-top: 1.8rem;
+          padding-left: 0.5rem;
         }
+
+
+        /* Define the sliding animation */
+@keyframes slideInFromRight {
+  0% {
+      transform: translateX(100%); /* Start from off-screen to the right */
+      opacity: 0; /* Start invisible */
+  }
+  100% {
+      transform: translateX(0); /* End at the final position */
+      opacity: 1; /* End visible */
+  }
+}
+
+/* Apply the animation to the target element */
+.slide-in-right {
+  animation: slideInFromRight 1.5s ease-out; /* 1 second duration with ease-out timing */
+  position: relative; /* Ensure the element is positioned relative to its normal flow */
+}
+
 
         .center {
           text-align: center;
         }
 
+
         .nav-link {
           padding: 0.2rem 0.5rem; /* Adjust padding for better touch targets */
-
         }
 
         .expand2 {
           padding-left: 0.2rem;
           padding-right: 0.2rem;
-  
         }
 
         .question1 {
@@ -780,7 +899,7 @@ body {
 
         .intro2 {
           /* add color */
-          font-size: 1.05;
+          font-size: 1.05rem;
           color: white;
           font-weight: 500;
         }
@@ -788,21 +907,30 @@ body {
 
         .text {
           color: white;
-          font-size: 0.75rem;
+          font-size: 0.8rem;
+
+        }
+
+        .semi-hero {
+          padding-left: 0.5rem;
+          text-align: center;
+
+        }
+
+        .hero-p {
+          color: white;
+          font-size: 1.2rem;
+          line-height: 1.6;
+          text-align: left;
+          padding-left: 0.5rem;
+          font-weight: 200;
+          font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
 
         .btn {
           padding: 0.3rem;
            
         }
-
-        small {
-          font-size: 0.75rem;   
-        }
-
-        
-
-
 
       .card {
         margin: 10px;
@@ -836,6 +964,8 @@ body {
 
       
 
+      
+
       .logo-text {
         font-size: 1.2rem;
       }
@@ -857,9 +987,7 @@ body {
         flex-direction: column;
       }
 
-      .small-signup {
-        margin: 0;
-      }
+
 
       .navbar-nav {
         margin-left: auto;
@@ -873,6 +1001,19 @@ body {
       .btn {
         border: 0.1rem solid #9acd32;
 
+      }
+
+     .d-grid {
+          margin-top: 2rem;
+     }
+     
+
+      .herobtn {
+        width: 100vw;
+      }
+
+      .mobile-hero {
+        width: 90vw;
       }
  
       }
