@@ -373,12 +373,6 @@ body {
   color: white;
   }
 
-
-
-  .btn-outline-primary {
-  margin-left: 10px; /* Adjust spacing between nav links and button */
-  }
-
   .navbar-toggler {
     color: transparent;
     border: none;
@@ -786,7 +780,7 @@ body {
 
         .intro2 {
           /* add color */
-          font-size: 1.05rem;
+          font-size: 1.05;
           color: white;
           font-weight: 500;
         }
@@ -864,8 +858,7 @@ body {
       }
 
       .small-signup {
-        margin-left: auto;
-
+        margin: 0;
       }
 
       .navbar-nav {
@@ -888,3 +881,20 @@ body {
       html {
         scroll-behavior: smooth;
     }
+
+    .navbar-toggler {
+      border-color: transparent; /* Hide the border */
+  }
+  
+  /* Change the color of the toggler icon */
+  .navbar-toggler-icon {
+      background-image: none; /* Remove default background image */
+  }
+  
+  .navbar-toggler::before {
+      content: "\2630"; /* Unicode for hamburger icon */
+      font-size: 2rem; /* Adjust size as needed */
+      color: white; /* Set color to white */
+      display: inline-block;
+      margin-bottom: 0.3rem;
+  }
