@@ -142,10 +142,7 @@ body  {
         }
 
        
-        .footer-icons {
-          display: flex;
-          align-items: center;
-        }
+       
         
         .footer-icons a {
           margin-left: 12px; 
@@ -448,6 +445,18 @@ body  {
 
 
 
+@media (min-width: 300px) and (max-width: 359px) {
+  .nav-link  {
+    font-size:  3.45vw!important;
+  }
+
+  .footer-link {
+    font-size:  4vw!important;
+
+  }
+
+
+}
 
 
 
@@ -470,6 +479,11 @@ body  {
         font-size: 3vw;
         color: white;
         font-weight: 300;
+      }
+
+      .footer-icons {
+        display: flex;
+        justify-content: space-around;
       }
 
       .dropdown-sign {
@@ -598,6 +612,11 @@ body  {
         font-size: 0.9rem;
       }
 
+      .footer-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
       .dropdown-sign {
         display: flex; 
         justify-content: center; 
@@ -683,6 +702,11 @@ body  {
 
     }
 
+    .footer-icons {
+      display: flex;
+      justify-content: space-around;
+    }
+
     .text2 {
       color: white;
       font-size: 0.8rem;
@@ -724,15 +748,32 @@ body  {
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
       /* phones */
-      @media (max-width: 767px) {  
+      @media (max-width: 768px) {  
           .hero {
             padding-bottom: 0.8rem;
+          }
+
+          .hero-text {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+
+          .footer-icons {
+            display: grid;
+            gap: 0.5rem;
+          }
+
+          i {
+            color: white;
+            border: 0.3rem solid #002D25 ;
+            border-radius: 50%;
           }
 
         .nav-link {
           padding: 0rem; /* Adjust padding for better touch targets */
           white-space: wrap; /* Prevent text wrapping */
         }
+
         .navbar {
           margin-bottom: 1.5rem;
         }
@@ -844,10 +885,11 @@ body  {
           color: white;
           font-weight: 500;
           line-height: 1.7;
-          text-align: left;
+          text-align: center;
           margin-bottom: 2rem;
           margin-top: 1.8rem;
           padding-left: 0.5rem;
+
         }
 
 
@@ -1012,12 +1054,9 @@ body  {
         width: 100vw;
       }
 
-      .mobile-hero {
-        width: 90vw;
-      }
+
  
       }
-
 
 
       html {
